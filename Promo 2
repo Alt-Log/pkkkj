@@ -226,7 +226,6 @@ footer {
                     <li><a class="dropdown-item" href="#Hoodie" style="color: grey;">Hoodie</a></li>
                     <li><a class="dropdown-item" href="#Sweater" style="color: grey;">Sweater</a></li>
                     <li><a class="dropdown-item" href="#Kaos" style="color: grey;">Kaos</a></li>
-                    <li><a class="dropdown-item" href="#" style="color: grey;">Hoddie Jumper</a></li>
                   </ul>
                 </li>
                 <li class="nav-item dropdown" style="font-family: 'Courier New', Courier, monospace;">
@@ -760,11 +759,11 @@ footer {
       </h2>
       <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
         <div class="accordion-body">
-          <p>
-            <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Celana Pendek</a>
-            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Celana Panjang</button>
+            <div style="width: 100%; align-items: center;text-align: center;">
+            <a class="btn btn-dark" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Celana Panjang</a>
+            <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Celana Pendek</button>
             <button class="btn btn-dark" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Celana Pendek dan Panjang</button>
-          </p>
+            </div>
           <div class="row">
             <div class="col">
               <div class="collapse multi-collapse" id="multiCollapseExample1">
